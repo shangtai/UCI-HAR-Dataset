@@ -10,7 +10,7 @@ A full description of the original data is available from
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-Details of the data can be found from the readme.txt and features.txt file.
+Details of the data can be found from the readme.txt and features.txt files.
 
 Some of the information are being pasted here for your convenience.
 
@@ -52,7 +52,7 @@ The set of variables that were estimated from these signals are:
 - mean(): Mean value
 - std(): Standard deviation
 
-In the original data, there are other features such as meanFreq() and angle(), but we only retain those variables that uses mean() and std()
+In the original data, there are other features such as meanFreq() and angle(), but we only retain those variables that use mean() and std()
 
 
 ### Process of Data Cleaning
@@ -67,4 +67,4 @@ The data set that we have created so far is stored in the variable firstdata in 
 From that data set, we create a second, independent tidy data set with the average of each variable for each activity and each subject.
 The data is sorted according to the users and also by their activities (using the order introduced in activities_label.txt)
 
-The data is stored is the file called tidydata.txt.
+The data is stored in the file called tidydata.txt.
